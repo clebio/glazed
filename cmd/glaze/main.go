@@ -2,6 +2,7 @@ package main
 
 import (
 	"embed"
+
 	"github.com/spf13/cobra"
 	"github.com/wesen/glazed/cmd/glaze/cmds"
 	"github.com/wesen/glazed/pkg/help"
@@ -44,4 +45,5 @@ func init() {
 	rootCmd.AddCommand(cmds.YamlCmd)
 	rootCmd.AddCommand(cmds.DocsCmd)
 	rootCmd.AddCommand(cmds.MarkdownCmd)
+	rootCmd.AddCommand(cmds.TeapotCmd)
 }
